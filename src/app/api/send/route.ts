@@ -1,4 +1,3 @@
-import { MESSAGE_HOUR_POST } from "@/config";
 import { sendMessage } from "@/lib/discord";
 import { db } from "@/server/db";
 
@@ -17,10 +16,7 @@ export async function GET() {
   });
 
   if (post) {
-    const date = post.date;
-    date.setHours(MESSAGE_HOUR_POST);
-
-    if (date < currDate) {
+    if (post.date < currDate) {
       await sendMessage(post.text);
 
       await db.post.update({
