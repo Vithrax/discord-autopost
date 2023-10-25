@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://img.shields.io/github/contributors/Vithrax/t3-discord-autopost" alt="GitHub contributors" />
-<img src="https://img.shields.io/github/discussions/Vithrax/t3-discord-autopost" alt="GitHub discussions" />
-<img src="https://img.shields.io/github/issues/Vithrax/t3-discord-autopost" alt="GitHub issues" />
-<img src="https://img.shields.io/github/issues-pr/Vithrax/t3-discord-autopost" alt="GitHub pull request" />
+<img src="https://img.shields.io/github/contributors/Vithrax/discord-autopost" alt="GitHub contributors" />
+<img src="https://img.shields.io/github/discussions/Vithrax/discord-autopost" alt="GitHub discussions" />
+<img src="https://img.shields.io/github/issues/Vithrax/discord-autopost" alt="GitHub issues" />
+<img src="https://img.shields.io/github/issues-pr/Vithrax/discord-autopost" alt="GitHub pull request" />
 </p>
 
 <p></p>
@@ -14,11 +14,11 @@
 - [💻 Stack](#-stack)
 - [📝 Project Summary](#-project-summary)
 - [⚙️ Setting Up](#️-setting-up)
-  - [DATABASE_URL](#database_url)
-  - [NEXTAUTH_SECRET](#nextauth_secret)
-  - [GOOGLE_CLIENT_ID](#google_client_id)
-  - [GOOGLE_CLIENT_SECRET](#google_client_secret)
-  - [DISCORD_WEBHOOK_URL](#discord_webhook_url)
+    - [DATABASE\_URL](#database_url)
+    - [NEXTAUTH\_SECRET](#nextauth_secret)
+    - [GOOGLE\_CLIENT\_ID](#google_client_id)
+    - [GOOGLE\_CLIENT\_SECRET](#google_client_secret)
+    - [DISCORD\_WEBHOOK\_URL](#discord_webhook_url)
 - [🚀 Run Locally](#-run-locally)
 - [🙌 Contributors](#-contributors)
 - [📄 License](#-license)
