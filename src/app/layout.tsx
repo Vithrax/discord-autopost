@@ -33,7 +33,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system">
           <TRPCReactProvider headers={headers()}>
             <Navbar />
-            <main className="px-2 sm:container sm:pt-24">
+            <main className="px-2 sm:container">
               {children}
               <Toaster richColors />
             </main>

@@ -7,7 +7,7 @@ export default async function Home() {
   const session = await getServerAuthSession();
 
   return (
-    <div className="flex flex-col items-center justify-center gap-4 pt-12">
+    <div className="flex flex-col items-center justify-center gap-4 pt-20">
       <h1 className="max-w-5xl text-center text-3xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
         Scheduling posts on Discord the right way.
       </h1>
